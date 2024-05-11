@@ -178,7 +178,7 @@ body {
 .social-media__item::before {
   content: "";
   position: absolute;
-  background-image: url("/img/social/wp.svg");
+  background-image: url("../img/social/wp.svg");
   width: 80px;
   height: 80px;
   top: -23px;
@@ -188,14 +188,14 @@ body {
   margin: 0px 0px 45px 0px;
 }
 .social-media__item:nth-child(2)::before {
-  background-image: url("/img/social/tg.svg");
+  background-image: url("../img/social/tg.svg");
 }
 .social-media__item:nth-child(3)::before {
-  background-image: url("/img/social/inst.svg");
+  background-image: url("../img/social/inst.svg");
 }
 .social-media__item:nth-child(4)::before {
-  background-image: url("/img/social/fb.svg");
+  background-image: url("../img/social/fb.svg");
 }
 .social-media__item:nth-child(5)::before {
-  background-image: url("/img/social/tt.svg");
+  background-image: url("../img/social/tt.svg");
 }
