@@ -1,0 +1,100 @@
+@import "nullstyle.scss";
+@import "vars.scss";
+@import "blocks.scss";
+
+.wrapper {
+    padding: 15px;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FCE38A;
+}
+.logo {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+.title {
+    font-size: 72px;
+    text-align: center;
+}
+.slogan {
+    text-align: center;
+    font-size: 32px;    
+    margin: 0px 0px 18px 0px;
+    font-weight: 500;
+}
+.text {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width:350px) {
+    .text {
+        font-size: 24px;
+    }
+    .slogan {
+        font-size: 28px;
+    }
+    .title {
+        font-size: 64px;
+    }
+}
+
+
+.soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 46px 0px 0px 0px;
+		&__item {
+            transition: all 0.2s ease-out 0s;
+                        font-size: 28px;
+                        &:hover {
+                            color: #8AA3FC;
+                        }
+            padding-left: 80px;
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                background-image: url('/img/social/wp.svg');
+                width: 80px;
+                height: 80px;
+                top: -23px;
+                left: 0;
+            }
+            &:not(:last-child) {
+                margin: 0px 0px 45px 0px;
+            }
+            &:nth-child(2) {
+                &::before {
+                    background-image: url('/img/social/tg.svg');
+                }
+            }
+            &:nth-child(3) {
+                &::before {
+                    background-image: url('/img/social/inst.svg');
+                }
+            }
+            &:nth-child(4) {
+                &::before {
+                    background-image: url('/img/social/fb.svg');
+                }
+            }
+            &:nth-child(5) {
+                &::before {
+                    background-image: url('/img/social/tt.svg');
+                }
+            }
+		}
+}
