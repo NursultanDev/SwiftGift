@@ -24,7 +24,7 @@ body {
 .slogan {
     text-align: center;
     font-size: 32px;    
-    margin: 0px 0px 18px 0px;
+    margin: 15px 0px 18px 0px;
     font-weight: 500;
 }
 .text {
@@ -67,7 +67,7 @@ body {
             &::before {
                 content: '';
                 position: absolute;
-                background-image: url('../img/social/wp.svg');
+                background-image: url('../img/social/wp.png');
                 width: 80px;
                 height: 80px;
                 top: -23px;
@@ -78,22 +78,17 @@ body {
             }
             &:nth-child(2) {
                 &::before {
-                    background-image: url('../img/social/tg.svg');
+                    background-image: url('../img/social/tg.png');
                 }
             }
             &:nth-child(3) {
                 &::before {
-                    background-image: url('../img/social/inst.svg');
+                    background-image: url('../img/social/inst.png');
                 }
             }
             &:nth-child(4) {
                 &::before {
-                    background-image: url('../img/social/fb.svg');
-                }
-            }
-            &:nth-child(5) {
-                &::before {
-                    background-image: url('../img/social/tt.svg');
+                    background-image: url('../img/social/tt.png');
                 }
             }
 		}

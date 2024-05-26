@@ -121,7 +121,7 @@ body {
 .slogan {
   text-align: center;
   font-size: 32px;
-  margin: 0px 0px 18px 0px;
+  margin: 15px 0px 18px 0px;
   font-weight: 500;
 }
 
@@ -194,8 +194,5 @@ body {
   background-image: url("../img/social/inst.png");
 }
 .social-media__item:nth-child(4)::before {
-  background-image: url("../img/social/fb.png");
-}
-.social-media__item:nth-child(5)::before {
   background-image: url("../img/social/tt.png");
 }
